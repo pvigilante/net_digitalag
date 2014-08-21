@@ -1,0 +1,36 @@
+.price {
+	.button;
+	color:darken(@kuler1, 20%);
+	border-color:darken(@kuler1, 20%);
+	font-weight:300;
+}
+.alignright {
+	text-align:right; 
+}
+.aligncenter {
+	text-align:center; 
+}
+[data-icon] {
+	display:inline-block;
+	width:2em;
+	height:2em;
+	overflow:hidden;
+	background:url(assets/social.svg) no-repeat !important;
+	background-size:8em 4em !important;
+	text-indent:-9999px;
+	color:transparent;
+	text-shadow:none;
+	border-radius:2em;
+	&:hover {
+		color:transparent;
+		border-radius:2em;
+	}
+	
+}
+[data-icon=facebook]{ background-position:-2em 0 !important; }
+[data-icon=twitter]{ background-position:0em 0 !important; }
+[data-icon=googleplus]{ background-position:-4em -2em !important; }
+[data-icon=behance]{ background-position:0em -2em !important; }
+[data-icon=pintrest]{ background-position:-4em 0 !important; }
+[data-icon=rss]{ background-position:-6em 0 !important; }
+[data-icon=instagram]{ background-position:-2em -2em !important; }
